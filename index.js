@@ -34,3 +34,14 @@ function findTheCheese (foods) {
 	}
 	return "no cheese!";
 }
+
+
+function wordsWithB(words){
+  var bWords = [];
+  for(var i = 0; i < words.length; i++) {
+    var startsWithB = words[i].startsWith("b");
+    if (startsWithB)
+      bWords.push(words[i])
+  }
+  return bWords;
+}
